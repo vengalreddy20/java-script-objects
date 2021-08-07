@@ -66,4 +66,23 @@ console.log(student2);
 console.log(student);
 
 
+//assignment
+
+var student={
+    name:'vengal reddy',
+    age:21,
+    number:7993069718,
+    address:{
+        city:'nellore',
+        state:'AP',
+        pincode:524236
+    },
+    hobbies:['playing cricket','travelling','listening music',' playing batmenton']
+}
+for(i=0;i<=student.hobbies.length-1;i++)
+{
+    console.log(student.hobbies[i]);
+}
+
+
 
